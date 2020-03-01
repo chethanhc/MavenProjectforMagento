@@ -10,6 +10,7 @@ public class MagentoTest
 	public void testcase1()
 	{
 		WebDriver driver=new ChromeDriver();
+		System.out.println("Chrome Driver got opened");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.magento.com");
